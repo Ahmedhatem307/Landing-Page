@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     flex: 1;
     font-family: Roboto;
+    
 }
 .header, .footer{
     display: flex;
@@ -12,6 +13,9 @@ body{
     padding: 10px;
     background-color: #1f2937;
     align-items: center;
+}
+.header{
+    padding: 0 100px;
 }
 .links{
     display: flex;
@@ -25,7 +29,7 @@ a{
 .logo{
     font-size: 24px;
     color: #f9faf8;
-    font-weight: 900;
+    font-weight: bold;
 }
 .footer{
     margin-top: auto;
@@ -34,7 +38,40 @@ a{
 }
 .content{
     display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.container{
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+.title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+p{
+    font-size: 18px;
+    color:#e5e7eb;
+    
+}
+.img{
+    background-color: gray;
+    max-width: 500px;
+    height: auto;
+    flex: 1 0 auto;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+}
+.sign{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 25px;
+    border: 0;
+    padding: 10px 30px;
 }
