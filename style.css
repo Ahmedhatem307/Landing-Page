@@ -35,6 +35,7 @@ a{
     margin-top: auto;
     color: #e5e7eb;
     justify-content: center;
+    padding: 30px;
 }
 .content{
     display: flex;
@@ -120,4 +121,35 @@ p{
 .reference{
     margin-left: 500px;
     font-weight: bold;
+}
+.call{
+    display: flex;
+    justify-content: center;
+}
+.back{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    max-width: 750px;
+    flex: 1;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 60px;
+    align-items: center;
+    border-radius: 5px;
+}
+.title2{
+    font-weight: bold;
+    font-size: larger;
+}
+.txt2{
+    color:#e5e7eb;
+}
+.low{
+    padding: 5px 40px;
+    max-height: 35px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    border-radius: 5px;
 }
