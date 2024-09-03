@@ -39,10 +39,7 @@ a{
 .content{
     display: flex;
     flex-direction: column;
-    
-    
 }
-
 .container{
     background-color: #1f2937;
     display: flex;
@@ -57,7 +54,6 @@ a{
 p{
     font-size: 18px;
     color:#e5e7eb;
-    
 }
 .img{
     background-color: gray;
@@ -74,4 +70,35 @@ p{
     border-radius: 25px;
     border: 0;
     padding: 10px 30px;
+}
+.random{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 50px;
+}
+.info-row{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.image{
+    border-color: #3882f6;
+    border-style:solid;
+    padding: 70px;
+    border-radius: 20px;
+    max-width: 70px;
+}
+.item1, .item2, .item3, .item4{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.txt{
+    max-width: 146px;
 }
