@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: Roboto;
+}
+.header, .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1f2937;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.footer{
+    margin-top: auto;
+    color: #e5e7eb;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
